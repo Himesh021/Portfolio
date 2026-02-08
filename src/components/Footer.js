@@ -18,7 +18,11 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition duration-300"
             >
-              <span className="text-xl">🐙</span>
+                         <img
+    src="/icons/github.png"
+    alt="github"
+    width="32"
+  />
             </a>
             <a
               href={portfolioData.contact.social.linkedin}
@@ -26,7 +30,11 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition duration-300"
             >
-              <span className="text-xl">💼</span>
+              <img
+    src="/icons/linkedin.png"
+    alt="linkedin"
+    width="32"
+  />
             </a>
             <a
               href={portfolioData.contact.social.twitter}
@@ -34,7 +42,11 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition duration-300"
             >
-              <span className="text-xl">🐦</span>
+             <img
+    src="/icons/x.png"
+    alt="twitter"
+    width="32"
+  />
             </a>
           </div>
         </div>

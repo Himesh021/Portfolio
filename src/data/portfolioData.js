@@ -23,7 +23,7 @@ export const portfolioData = {
       name: "Pesronal-Portfolio-Website",
       description: "A responsive personal portfolio website built with React.js to showcase my skills, projects, and contact information in a clean and professional manner.",
       techStack: ["React", "API", "Tailwind CSS"],
-      github: "https://github.com/johndoe/weather-app",
+      github: "https://github.com/Himesh021/Portfolio",
       demo: "https://johndoe-weather.netlify.app"
     },
     // {
@@ -40,7 +40,8 @@ export const portfolioData = {
     social: {
       github: "https://github.com/Himesh021",
       linkedin: "https://www.linkedin.com/in/himesh-verma-93723a243/",
-      twitter: "https://x.com/HimeshV21112003"
+      twitter: "https://x.com/HimeshV21112003",
+      Leetcode:"https://leetcode.com/u/WoZrN43nqv/"
     }
   }
 };

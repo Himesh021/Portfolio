@@ -47,7 +47,11 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition duration-300"
               >
-                <span className="text-3xl">🐙</span>
+                <img
+    src="/icons/github.png"
+    alt="github"
+    width="32"
+  />
               </a>
               <a
                 href={portfolioData.contact.social.linkedin}
@@ -55,7 +59,11 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition duration-300"
               >
-                <span className="text-3xl">💼</span>
+                      <img
+    src="/icons/linkedin.png"
+    alt="linkedin"
+    width="32"
+  />
               </a>
               <a
                 href={portfolioData.contact.social.twitter}
@@ -63,8 +71,25 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition duration-300"
               >
-                <span className="text-3xl">🐦</span>
+                <img
+    src="/icons/x.png"
+    alt="twitter"
+    width="32"
+  />
               </a>
+              <a
+  href={portfolioData.contact.social.Leetcode}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition duration-300"
+>
+  <img
+    src="/icons/leetcode.png"
+    alt="LeetCode Profile"
+    width="32"
+  />
+</a>
+
             </div>
           </div>
         </motion.div>
