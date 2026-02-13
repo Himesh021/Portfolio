@@ -17,14 +17,14 @@ export const portfolioData = {
       description: "A full-stack job portal application built with React.js and Node.js that enables job seekers to apply for jobs and recruiters to post and manage job listings with secure authentication.",
       techStack: ["React", "Node.js", "MongoDB", "Stripe"],
       github: "https://github.com/Himesh021/HireNest",
-      demo: "https://johndoe-ecommerce.netlify.app"
+      demo: "https://hirenest-9bnu.onrender.com"
     },
     {
       name: "Pesronal-Portfolio-Website",
       description: "A responsive personal portfolio website built with React.js to showcase my skills, projects, and contact information in a clean and professional manner.",
       techStack: ["React", "API", "Tailwind CSS"],
       github: "https://github.com/Himesh021/Portfolio",
-      demo: "https://johndoe-weather.netlify.app"
+      demo: "himeshvermaportfolio.vercel.app"
     },
     // {
     //   name: "Task Manager",
