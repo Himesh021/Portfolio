@@ -1,6 +1,6 @@
 export const portfolioData = {
   name: "Himesh Verma",
-  headline: "Full-Stack Developer | React Enthusiast",
+  headline: "Full-Stack Developer | Software Developer",
   about: {
     intro: "Hi, I'm Himesh, a passionate Computer Science student with a love for creating beautiful and functional web applications.",
     careerObjective: "Aspiring to build innovative solutions that make a difference in the world.",
