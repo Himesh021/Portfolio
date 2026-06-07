@@ -23,6 +23,7 @@ export interface SkillGroup {
 }
 
 export interface StatCard {
-  value: string;
+  value?: string;
   label: string;
+  subtext?: string;
 }

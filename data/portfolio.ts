@@ -63,7 +63,7 @@ export const experiences: Experience[] = [
     role: "Open Source Contributor",
     org: "ApiDash (FOSS42) & Uramaki Lab — GSoC-affiliated",
     points: [
-      "Contributed to TypeScript & Dart codebases (1000+ stars); resolved 3+ issues via full fork→PR→review cycle; navigated large-scale architecture independently"
+      "Explored TypeScript & Dart codebases (1000+ stars); submitted PRs across ApiDash & Uramaki Lab, engaging in maintainer code review and iterating on feedback"
     ],
     color: "cyan"
   },
@@ -78,7 +78,7 @@ export const experiences: Experience[] = [
   },
   {
     date: "2023–2027",
-    role: "B.Tech Computer Science",
+    role: "B.Tech (Undergraduate)",
     org: "GGSIPU Delhi — CGPA 7.77/10",
     points: [
       "DSA, OS, DBMS, Computer Networks, OOP"
@@ -107,11 +107,16 @@ export const skills: SkillGroup[] = [
     category: "DevOps",
     color: "cyan",
     skills: ["Docker", "AWS", "GitHub Actions", "Git", "Postman"]
+  },
+  {
+    category: "AI Competencies",
+    color: "violet",
+    skills: ["Gemini API", "OpenAI API", "LangChain", "RAG", "Prompt Engineering", "Multi-Agent Systems"]
   }
 ];
 
 export const stats: StatCardType[] = [
   { value: "300+", label: "LeetCode Problems" },
-  { value: "3", label: "Production Projects" },
-  { value: "1", label: "GSoC-Affiliated" }
+  { value: "6+", label: "Production Projects" },
+  { label: "Open Source Contributor" }
 ];

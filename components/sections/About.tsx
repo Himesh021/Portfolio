@@ -20,8 +20,8 @@ export default function About() {
             <p>
               With a strong foundation in Data Structures and Algorithms, I approach problem-solving logically and efficiently. My experience spans from crafting seamless frontend experiences to architecting complex, multi-tenant backend systems.
             </p>
-            <p>
-              I am also an active open-source contributor, having collaborated on GSoC-affiliated projects, and I am continuously exploring new technologies in the ever-evolving web ecosystem.
+            <p className="text-center">
+              I am also an active contributor, having collaborated on various open-source projects, and I am continuously exploring new technologies in the ever-evolving web ecosystem.
             </p>
           </div>
         </ScrollReveal>
@@ -29,7 +29,7 @@ export default function About() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {stats.map((stat, i) => (
             <ScrollReveal key={stat.label} delay={i * 150} direction="left">
-              <StatCard value={stat.value} label={stat.label} delay={i * 500} />
+              <StatCard value={stat.value} label={stat.label} subtext={stat.subtext} delay={i * 500} />
             </ScrollReveal>
           ))}
           <ScrollReveal delay={450} direction="left">

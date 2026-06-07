@@ -1,23 +1,31 @@
 import React from 'react';
 
 interface StatCardProps {
-  value: string;
+  value?: string;
   label: string;
+  subtext?: string;
   delay?: number;
 }
 
-export default function StatCard({ value, label, delay = 0 }: StatCardProps) {
+export default function StatCard({ value, label, subtext, delay = 0 }: StatCardProps) {
   return (
     <div 
-      className="p-5 bg-[rgba(255,255,255,0.04)] border border-[rgba(255,255,255,0.08)] rounded-[1rem] backdrop-blur-[12px] animate-float flex flex-col items-center justify-center text-center"
+      className="p-6 bg-[#F6F5F0] border border-[#E8E6DF] rounded-2xl animate-float flex flex-col items-start justify-center text-left h-full"
       style={{ animationDelay: `${delay}ms` }}
     >
-      <div className="text-3xl font-orbitron font-bold bg-gradient-to-r from-cyan-400 to-violet-500 bg-clip-text text-transparent mb-2">
-        {value}
-      </div>
-      <div className="text-sm text-slate-400 font-syne uppercase tracking-wider">
+      {value && (
+        <div className="text-4xl font-semibold text-gray-900 mb-2 tracking-tight">
+          {value}
+        </div>
+      )}
+      <div className="text-sm text-gray-500 font-medium uppercase tracking-widest leading-snug max-w-[130px]">
         {label}
       </div>
+      {subtext && (
+        <div className="text-sm text-gray-700 mt-3 font-medium tracking-wide">
+          {subtext}
+        </div>
+      )}
     </div>
   );
 }
