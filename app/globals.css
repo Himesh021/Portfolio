@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #050510;
+  --cyan: #00f5ff;
+  --violet: #a855f7;
+  --cyan-dim: rgba(0, 245, 255, 0.12);
+  --violet-dim: rgba(168, 85, 247, 0.12);
+  --glass: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-syne), sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-orbitron), sans-serif;
+}
+
+/* Base utility for hiding scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--glass-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, var(--cyan), var(--violet));
+  color: #050510;
+  font-family: var(--font-orbitron);
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px var(--violet-dim);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--cyan);
+  font-family: var(--font-orbitron);
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--cyan);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+.btn-outline:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px var(--cyan-dim);
+  background: var(--cyan-dim);
+}
