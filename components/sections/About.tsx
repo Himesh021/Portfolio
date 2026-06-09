@@ -15,7 +15,7 @@ export default function About() {
         <ScrollReveal delay={150} direction="right">
           <div className="prose prose-invert prose-lg font-syne text-slate-300 leading-relaxed">
             <p>
-              I'm a passionate Full-Stack Developer currently pursuing my B.Tech in Computer Science at GGSIPU Delhi. I specialize in the MERN stack and TypeScript, building robust, scalable web applications and dynamic user interfaces.
+              I'm a passionate Full-Stack Developer, specialized in the MERN stack and TypeScript, building robust, scalable web applications and dynamic user interfaces.
             </p>
             <p>
               With a strong foundation in Data Structures and Algorithms, I approach problem-solving logically and efficiently. My experience spans from crafting seamless frontend experiences to architecting complex, multi-tenant backend systems.
