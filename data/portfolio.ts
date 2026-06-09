@@ -4,12 +4,13 @@ export const projects: Project[] = [
   {
     id: 1,
     number: "01",
-    title: "FinSight AI — Multi-Agent Financial Analytics Platform",
-    description: "Architected multi-agent AI system with specialized agents for news summarization, sentiment analysis, and investment reasoning. Integrated real-time stock data with interactive Recharts dashboards.",
-    techs: ["React.js", "Node.js", "Express.js", "MongoDB", "OpenAI API", "Recharts", "Tailwind CSS"],
-    github: "https://github.com/Himesh021/financial-ai-agent",
-    live: "#"
+    title: "CricInsight.AI — AI-Powered Cricket Analytics",
+    description: "AI-powered sports analytics, using Machine Learning models for predicting match outcomes, identifying key plays and player performances.",
+    techs: ["React.js", "Node.js", "Express.js", "MongoDB", " JWT", "Tailwind CSS"],
+    github: "https://github.com/Himesh021/CricInsight",
+    live: "https://cric-insight-pi.vercel.app/"
   },
+
   {
     id: 2,
     number: "02",
@@ -31,11 +32,11 @@ export const projects: Project[] = [
   {
     id: 4,
     number: "04",
-    title: "CricInsight.AI — AI-Powered Cricket Analytics",
-    description: "AI-powered sports analytics, using Machine Learning models for predicting match outcomes, identifying key plays and player performances.",
-    techs: ["React.js", "Node.js", "Express.js", "MongoDB", " JWT", "Tailwind CSS"],
-    github: "https://github.com/Himesh021/CricInsight",
-    live: "https://cric-insight-pi.vercel.app/"
+    title: "FinSight AI — Multi-Agent Financial Analytics Platform",
+    description: "Architected multi-agent AI system with specialized agents for news summarization, sentiment analysis, and investment reasoning. Integrated real-time stock data with interactive Recharts dashboards.",
+    techs: ["React.js", "Node.js", "Express.js", "MongoDB", "OpenAI API", "Recharts", "Tailwind CSS"],
+    github: "https://github.com/Himesh021/financial-ai-agent",
+    live: "#"
   },
   {
     id: 5,
